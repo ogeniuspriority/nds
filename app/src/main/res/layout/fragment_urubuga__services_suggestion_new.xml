@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.ogeniuspriority.nds.nds.Urubuga_Services$PlaceholderFragment">
+
+
+    <ListView
+        android:id="@+id/suggested_pgds"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        android:drawingCacheQuality="high"
+        android:padding="10dp"
+        android:scrollbarStyle="outsideOverlay" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#8fd9d0"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/Add_sution"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/plus_"
+            android:text="Add suggestion" />
+
+        <TextView
+            android:id="@+id/Add_suggestion"
+            android:layout_width="264dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Add suggestion"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</RelativeLayout>
